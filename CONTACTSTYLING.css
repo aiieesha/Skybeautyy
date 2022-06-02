@@ -1,0 +1,52 @@
+.contact{
+    text-align: center;
+    font-size: 200px;
+}
+
+
+
+
+img{
+    width: 1530px;
+    height: 30px;
+}
+
+.time{
+    text-align: center;
+    padding-top: -60px;
+}
+
+*{ 
+    margin: 0px;
+    padding:0;
+    
+    
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+ul{
+    text-align: right;
+}
+
+
+ul li{
+  list-style: none; 
+    display: inline-block;
+    line-height: 60px;
+    position:relative;
+    text-decoration-line: underline;
+    text-decoration-color: dimgray;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+     color: saddlebrown;
+    font-size: 13px;
+    font-family:serif;
+    padding: 0 30px;
+}

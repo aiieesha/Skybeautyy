@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Sky beauty</title>
+    <link rel="stylesheet"  href="stylee.css">
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Raleway">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Raleway:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+    
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css>"
+    
+</head>
+<body >
+<div class="popup">
+    <div class="contentBox">
+        <div class="close"></div>
+        <div class="imgBOX">
+            <img src="images/ppopp.jpeg">
+        </div>
+        <div class="contentt">
+            <div><h3>Special Offer For All!</h3>
+                <h2>80<sup>%</sup><span>Off</span></h2>
+                <p>For all skin care products. Use the code maamah to get it!</p>
+                <a href="specials.html">Get the deal</a></div>
+        </div>
+    </div>
+</div>
+<!--when popup shows after 2 seconds-->
+<script>
+    const popup = document.querySelector(popup);
+    const close = document.querySelector(close);
+
+    window.onload = function(){
+        setTimeout(function(){
+            popup.style.display = "block";
+
+            //the time delay to show popup
+        }, 2000)
+    }
+
+
+    close.addEventListener(click, () => {
+        popup.style.display = "none";
+    })
+</script>
+
+
+
+
+
+    <section class="header">
+    <nav>
+        <div class="imagelogo">
+     <a href="index.html"><img src="images/BEAUTYLOGO.jpeg"></a>   
+            </div>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="specials.html">SPECIALS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">LOG IN</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars onclick="showMenu()></i>
+        </nav>
+       <div class="text-box">
+        <h1>Welcome</h1>
+           <p>to a full Sky beauty Experience</p>
+           <a href="login.html" class="hero-btn">Visit us to know more</a> <br> <br>
+           <a href="specials.html" class="hero-btnn">Book appointment</a>
+        </div>
+        
+                    
+    </section>
+    
+    
+   <!------service-------->
+    
+    <section class="service">
+    <h1 style="text-align: center;font-family:serif; font-size:100px;color: saddlebrown;text-decoration-line: overline;">Services we offer</h1>
+    <p style="text-align: center;">We simply give the most nourishing experience to all.<br> Our...</p>
+    <br>
+         <div class="row">
+        <div class="service-col">
+            
+        <h3 style="text-align: center;">Make over</h3>
+           <p> Full glam,casual,over the top... all services are available here. Complete your service with beautiful makeup and simply be amazing with a complete new dazzling look...</p>
+        </div>
+           <div class="service-col">
+            
+        <h3 style="text-align: center;">Treatments that transform your mood</h3>
+            <p style="text-align: center;">Our spa treatment curates and customizes each luxurious treatment to deliver the exact mood you desire, now and long after you leave.</p>
+        </div>
+           <div class="service-col">
+            
+        <h3 style="text-align: center;">Our Quality products</h3>
+            <p>Shop our Skin care and makeup prices with a 30% discount off when ordering from our online store</p>
+        </div>
+        </div>
+    
+    </section>
+        <br>
+          
+      <!-------storytime------>
+    <section class="storytime">   
+    <h1 style="text-align:center; font-family:serif; font-size:100px;color: saddlebrown;">Our story...</h1>
+        
+        <p>We started as a small beauty studio in Kaita, Katsina. Our main idea was to create the best beauty studio in the world.<br> Can there be compromises in the best studio in the world? Our answer is always no, we care about the best quality,<br> we hire the best specialists and provide the best customer service. This approach allowed us to grow and create awesome <br>team that is passionate about everything we do.</p>
+    <div class="row">
+        <div class="service-col">
+        <img src="images/girl1.jpeg">
+            
+            </div>
+        </div>
+        
+        </div>
+        </section>
+    <!--------shop----->
+    <hr>
+<section class="shop">
+<h1 style="text-align: center;font-family:serif; font-size:100px;color: saddlebrown;text-decoration-line: underline;">Shop</h1> <br>
+    <div class="row"> 
+    <div class="shop-col"> 
+    <div>    
+        <img src="images/skincare2.jpg"> 
+        <h3>Facial Beauty</h3>
+        <h5>$100</h5>
+    </div>
+        
+    <div>
+        <img src="images/skincare4.jpg"> 
+        <h3>Foundation Cream</h3>
+        <h5>$350</h5>
+    </div>
+    <div>  
+        <img src="images/skincare5.jpeg"> 
+        <h3>Moisturizer</h3>
+        <h5>$800</h5>
+    </div>
+        
+     <div>  
+        <img src="images/skincare6.jpg"> 
+        <h5>$650</h5>
+    </div>
+    </div>
+    </div>
+     <a href="" class="hero-btnnn">Shop all</a>
+</section>
+    
+    <!-----------testimonial---->
+
+<section class="testimonials">
+    <h2 style="color:bisque;font-family:'Times New Roman', Times, serif; text-decoration:underline;">WORDS FROM OUR HAPPY CLIENTS</h2>
+<p style="color: azure;">
+<img src="images/jackieaina.jpeg"> 
+    “This magic place helps me to deal with all my stress.Can't wait to enjoy make next full beauty program. -Jackie Aina”    <br> <br> <br> <br>
+    <img src="images/zarabala.jpg">
+“Healthy body and healthy soul are so important. <br> This place is all about that, come and make sure. <br> Gift certificate to this spa salon was the best gift I've ever had. -Zarah bala.”</p> <br>
+    
+
+</section>
+
+<section class="footer">
+    <h1 style="font-family: serif; font-size: 75px;">The Daily Good Newsletter</h1> <br> <br>
+    <p style="font-family: serif; font-size: 17px;">Join 22k subscribers who start their day with soothing playlists, sustainable makeup tips, inspiring articles, and more.</p>
+    <form> <div class="input-email">
+        <input type="email" id="email" required placeholder="Email Address">
+        <label for="email"></label>
+        </div>
+       <button type="submit" name="button">Sign up</button>
+
+    </form>
+    <div class="icons"> 
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-linkedin-in"></i> <br> <br> <br>
+        <h6 style="font-family: serif;">Inc. 2021</h6>
+        <h6 style="font-family: serif;font-size:15px;">Copyright <i class="fa fa-copyright"></i>2022, All rights reserved.<h6> <br> <br> <br>
+    </div>
+    
+    </section>
+
+
+
+
+
+    
+    <!--------javascript for menu___ --->
+    
+    <script>
+    var navLinks=document.getElementById("navLinks");
+       function showMenu() {
+           navLinks.style.right="0";
+       }
+        
+         function hideMenu() {
+           navLinks.style.right="-200px";
+       }
+        
+    </script>
+                                      
+    </body>
+
+
+</html>
